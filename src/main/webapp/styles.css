@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";/* Reset de estilos para garantir uma base consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex; /* Flex container para centralizar o conteúdo */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh; /* Tamanho da tela */
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura do formulário */
+    max-width: 100%; /* Largura máxima */
+}
+
+/* Estilos para os títulos */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilos para as etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para o botão de envio */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para campos de entrada quando em foco */
+input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
