@@ -8,6 +8,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="C:/Users/00344221/Downloads/eclipse/hsqldb/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/00344221/Desktop/eclipse/hsqldb/lib/hsqldb.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
